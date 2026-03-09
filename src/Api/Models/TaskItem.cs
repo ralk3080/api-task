@@ -7,7 +7,7 @@ public class TaskItem{
     public bool IsCompleted{get;set;}
     public Priority Priority{get;set;}
     public DateTime CreatedAt {get;set;}
-    public DateTime? UpdatedAt{get;set}
+    public DateTime? UpdatedAt{get;set;}
 }
 public enum Priority{
     Low =0,
